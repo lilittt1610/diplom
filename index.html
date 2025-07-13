@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пеший ХОД</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Пеший <span>ХОД</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about__welcom" class="nav__link">О проекте</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Маршруты</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Арт-объекты</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle-about"> <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Эти звери не кусают</h1>
+                <p class="hero__subtitle">Хотите увидеть необычные арт-объекты Сосновоборска?</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Экскурсии</a>
+                    <a href="#contacts" class="btn btn--outline">Найти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                          <div class="slider">
+        <div class="slides">
+      <img src="images/photo01.jpg" alt="Фото 1" class="slide">
+      <img src="images/photo02.jpg" alt="Фото 2" class="slide">
+      <img src="images/photo03.jpg" alt="Фото 3" class="slide">
+      <img src="images/photo04.jpg" alt="Фото 1" class="slide">
+      <img src="images/photo05.jpg" alt="Фото 2" class="slide">
+      <img src="images/photo06.jpg" alt="Фото 3" class="slide">
+      <img src="images/photo07.jpg" alt="Фото 1" class="slide">
+      <img src="images/photo08.jpg" alt="Фото 2" class="slide">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+    <!-- Контейнер для точек -->
+    <div class="dots"></div>
+  </div>
+                    <div id="about__welcom" class="about__content">
+                        <h2 class="section-title">Приглашаем на экскурсии</h2>
+                        <p class="about__text">Пешие экскурсии по Сосновоборску и его живописным окрестностям – отличный способ размяться и надышаться сосновым воздухом. Удиви свой фитнес-браслет новыми тысячами шагов! А туристическая компания  <a href="#contacts"><span>«Пеший ХОД»</span></a> поможет в этом.</p>
+
+                        <p class="about__text">Большинство маршрутов проложены по сосновому бору и проводятся с учетом уровня физической подготовки участников. Рекомендуем нашу новую городскую программу <a href="#menu-item__zveri"><span>«Звери Сосновоборска»</span></a>, на которой вы увидите интересные арт-объекты.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                
+                            </li>
+                            <li class="feature-item">
+                                <span><i class="fa-regular fa-compass"></i>&nbsp Экскурсии проходят по мере набора групп</span>
+                            </li>
+                            <li class="feature-item">
+                                <span><i class="fa-regular fa-compass"></i>&nbsp Стоимость билета зависит от числа участников</span>
+                            </li>
+                            <li class="feature-item">
+                                <span><i class="fa-regular fa-compass"></i>&nbsp Пенсионерам и школьникам скидка 50%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Маршруты</h2>
+                <div class="menu__content active" id="route">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 id="menu-item__zveri" class="menu-item__title" >Звери Сосновоборска</h3>
+                                <span class="menu-item__price">2 часа <br> 6,5 км</span>
+                            </div>
+                            <p class="menu-item__description">Пешая экскурсия по городу, на которой вы увидите все арт-объекты в виде животных в разных частях города и узнаете много интересного.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Тропа «Белкин круг»</h3>
+                                <span class="menu-item__price">1,5 часа <br>5 км</span>
+                            </div>
+                            <p class="menu-item__description"> Основная прогулочная тропа лесопарка, оборудованная уличной мебелью и уютными зонами отдыха.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Малая тропа здоровья</h3>
+                                <span class="menu-item__price">2,5 часа <br>2,5 км</span>
+                            </div>
+                            <p class="menu-item__description">Прогулка в размеренном темпе для тех, кто никуда не торопится и любит травяной чай, который входит в программу. Чаепитие в беседке.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Тропа приключений</h3>
+                                <span class="menu-item__price">3 часа <br>4 км</span>
+                            </div>
+                            <p class="menu-item__description">Маршрут средней сложности, на котором нам предстоит преодолеть небольшую полосу препятствий в веревочном парке. Наше приключение завершит катание на тюбингах. Одевайтесь по-спортивному!</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Большая кольцевая тропа</h3>
+                                <span class="menu-item__price">3 часа <br>8 км</span>
+                            </div>
+                            <p class="menu-item__description">Самый длинный маршрут. Он охватывает весь лесопарк «Белкин Дом» и даёт прекрасные возможности для наблюдения за природой.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Ночной Сосновоборск</h3>
+                                <span class="menu-item__price">2 часа <br>5 км</span>
+                            </div>
+                            <p class="menu-item__description">Прогулка по скверам города в романтичном свете звезд и уличных фонарей. Качание на качелях в центре города. Красивые локации для селфи.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Наконец-то выбрался на природу из душного офиса. <br> Оч понравилось. Кстати, в сосновом бору практически нет комаров. Приятно удивлен.</p>
+                        <div class="review__author">
+                            <img src="images/ava1.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Сергей</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Это было прям огонь! <br> Лесная земляника вообще зашла на ура — её там столько! Орги, респект вам огромный!</p>
+                        <div class="review__author">
+                            <img src="images/ava2.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Настя Иванова</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Прогулялись по лесопарку, выпили травяного чаю. Мы с радикулитом геройски одолели маршрут, а сосновый воздух - лучшее лекарство от всех болезней. Рекомендую. </p>
+                        <div class="review__author">
+                            <img src="images/ava3.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Олег Анатольевич</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Сосновоборск, л. Весенняя, 8, оф 8-88</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>Телефон: +7 889988998</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>e-mail: soscnovoborsk@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>График работы<br>
+                                Вт-Вс (Пн -выходной)
+                            </span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://ok.ru/stihilili" target="_blank" class="social-link" aria-label="Odnoklassniki"><i class="fa-brands fa-odnoklassniki"></i></a>
+                            <a href="https://vk.com/stihilili" target="_blank" class="social-link" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+                            <a href="https://t.me/stihilili" target="_blank" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112.205320987402!2d93.33231923914676!3d56.1154144933052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd79dccddbe6f99%3A0xef46d8cab487fc8!2z0YPQuy4g0JLQtdGB0LXQvdC90Y_RjywgOCwg0KHQvtGB0L3QvtCy0L7QsdC-0YDRgdC6LCDQmtGA0LDRgdC90L7Rj9GA0YHQutC40Lkg0LrRgNCw0LksIDY2MjUwMQ!5e0!3m2!1sru!2sru!4v1752333662802!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Пеший<span> ХОД</span></a>
+                    <p class="footer__text">Пешеходные экскурсии в Сосновоборске</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Информация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">На главную</a></li>
+                        <li><a href="#menu" class="footer__link">Маршруты</a></li>
+                        <li><a href="#about" class="footer__link">О проекте</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+    <h3 class="footer__title">Подписка</h3>
+    <p class="footer__text">Подпишитесь на наши новости</p>
+    <form class="subscribe-form">
+        <input type="email" placeholder="Ваш email" class="subscribe-input">
+        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+    </form>
+    <div class="footer__zakon">
+    <p> <br> Нажимая кнопку «Отправить», вы соглашаетесь с нашей <a href="#"> <span>Политикой конфиденциальности</span></a> . При сборе и хранении персональных данных мы соблюдаем требования ФЗ-152.</p>
+    </div>
+</div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025 Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
