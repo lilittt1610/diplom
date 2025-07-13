@@ -737,3 +737,9 @@ ul {
         flex-direction: column;
     }
 }
+
+
+
+.about__content{
+    padding: 80px 0px;
+}
